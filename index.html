@@ -5,20 +5,248 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+   
     <!-- bootstrap -->
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
   </head>
 </head>
 <body>
+    <header style="background-color: #FBFBFF;">
+      <!-- navbar -->
+
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container d-flex">
+          <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" style="width: 600px; border-radius: 20px;" type="search" placeholder="Search" aria-label="Search">
+          </form>
+          <div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item me-1">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item me-1">
+                  <a class="nav-link active" href="#Shoes">Shoes</a>
+                </li>
+                <li class="nav-item me-1">
+                  <a class="nav-link active" href="#Bags">Bags</a>
+                </li>
+                <li class="nav-item me-1">
+                  <a class="nav-link active" href="#Contact">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- carousel -->
+
+      <div class="container pt-3">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-inner"  style="border-radius: 20px; ">
+            <div class="carousel-item active">
+              <div class="row p-5 d-flex align-items-center" style="background-color: #FEEAE9;">
+                <div class="col-lg-7">
+                  <h2 style="font-size: 50px; font-weight:700;">Mi LED TV 4A PRO 32</h2>
+                  <p style="margin-bottom: 60px; font-size: 17px;">The Mi 4A 32" HD LED Smart TV is an overall very good performing Television. This TV provides you HD image which lets you have a better experience with many layers of color and also enjoy the three-dimensional images too. You will also be able to enjoy the crisp image quality which will enhance your watching experience even more.</p>
+                  <h1>$1249</h1>
+                  <button class="btn text-light pt-2" style="background-color: #FF136F; width:120px;">Buy Now</button>
+                </div>
+                <div class="col-lg-5">
+                  <img src="images/banner-images/tv.png" class="img-c d-block w-100" alt="...">
+                </div>
+              </div>
+              
+            </div>
+            <div class="carousel-item">
+              <div class="row p-5 d-flex align-items-center" style="background-color: #F8FA90;">
+                <div class="col-lg-7">
+                  <h2 style="font-size: 50px; font-weight:700;">Beats EP On-Ear Wired Headphone</h2>
+                  <p style="margin-bottom: 60px; font-size: 17px;">Beats EP is an On-Ear Wired Headphone from Beats. Beats EP on-ear headphones delivers masterfully tuned sound. Its battery-free design offers unlimited playback and its sleek, durable frame is reinforced with lightweight stainless steel.</p>
+                  <h1>$149</h1>
+                  <button class="btn text-light" style="background-color: #FF136F; width:120px;">Buy Now</button>
+                </div>
+                <div class="col-lg-5">
+                  <img src="images/banner-images/headphone.png" class="img-c d-block w-100" alt="...">
+                </div>
+              </div>
+              
+            </div>
+            <div class="carousel-item">
+              <div class="row p-5 d-flex align-items-center" style="background-color: #E5EBEA;">
+                <div class="col-lg-7">
+                  <h2 style="font-size: 50px; font-weight:700;">Microsoft Xbox Series X 16GB Memory 1TB SSD</h2>
+                  <p style="margin-bottom: 60px; font-size: 17px;">The Microsoft Xbox Series X Gaming Console delivers sensationally smooth frame rates of up to 120FPS with the visual pop of HDR. Immerse yourself with sharper characters, brighter worlds, and impossible details with true-to-life 4K. The Xbox Series X is equipped with 8X Cores @ 3.8 GHz (3.66 GHz w/SMT) Custom Zen 2 CPU and 12 TFLOPS, 52 CUs @1.825 GHz Custom RDNA 2 GPU.</p>
+                  <h1>$899</h1>
+                  <button class="btn text-light" style="background-color: #FF136F; width:120px;">Buy Now</button>
+                </div>
+                <div class="col-lg-5">
+                  <img src="images/banner-images/xbox.png" class="img-c d-block w-100" alt="...">
+                </div>
+              </div>
+              
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+
+
+    <main>
+
+      <!-- categories start here -->
+
+
+      <section class="container py-4"  style="background-color: #FBFBFF;">
+        <div class="section-title">
+          <h2 style="font-weight:700">Categories</h2>
+        </div>
+        <div class="row pt-3">
+          <div class="col-lg-4 col-md-6 col-12">
+            <div style=" background-image: linear-gradient(180deg, #F8C630, #FFD019); display: flex; align-items: center; justify-content:space-between; padding: 20px; border-radius: 20px;">
+              <h2 style="font-size: 36px; color: white;">Watch</h2>
+              <img src="images/categories/watch.png" width="68px" height="90px" alt="">
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <div style=" background-image: linear-gradient(180deg, #00A878, #00A878); display: flex; align-items: center; justify-content:space-between; padding: 20px; border-radius: 20px;">
+              <h2 style="font-size: 36px; color: white;">Bag</h2>
+              <img src="images/categories/bag.png" width="68px" height="90px" alt="">
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <div style=" background-image: linear-gradient(180deg, #EE2E31, #F5585B); display: flex; align-items: center; justify-content:space-between; padding: 20px; border-radius: 20px;">
+              <h2 style="font-size: 36px; color: white;">Shoes</h2>
+              <img src="images/categories/shoes.png" width="68px" height="90px" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+
+<!-- shoes start here -->
+
+      <section class="container py-3" id="Shoes">
+        <div class="section-title d-flex align-items-center justify-content-between pb-3">
+          <h2 style="font-weight: 700;">Shoes</h2>
+          <a href="" style="text-decoration: none;">See All</a>
+        </div>
+        <div class="row ge-2">
+          <div class="col-lg-4 cl-md-6 col-12">
+            <div class="card" style="background-color: #DFFDFF;">
+              <img src="images/shoes/shoe-1.png" width="336" height="202" alt="">
+              <div class="card-body d-flex flex-column align-items-center">
+                <h2>Reebok Dart Men’s</h2>
+                <p>Go for that extra rep in these men's lightweight shoes. A breathable upper helps keep feet cool throughout your workout. The multipurpose outsole provides grip for quick cuts and lateral moves.</p>
+                <h1 class="py-3">$699</h1>
+                <button class="btn btn-dark rounded" style="width: 150px;" >Buy Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 cl-md-6 col-12">
+            <div class="card" style="background-color: #D8DBE2;">
+              <img src="images/shoes/shoe-2.png" width="336" height="202" alt="">
+              <div class="card-body d-flex flex-column align-items-center">
+                <h2>Reebok Pump</h2>
+                <p>Swish, swish, boom. With these men's Reebok Pump Omni Zone II Shoes, your look is nothing but net. Make your haters drool over every single detail, from the curvy TPU cage to the mid-cut profile. </p>
+                <h1 class="py-3">$799</h1>
+                <button class="btn btn-dark rounded" style="width: 150px;" >Buy Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 cl-md-6 col-12">
+            <div class="card" style="background-color: #E8C1C5;">
+              <img src="images/shoes/shoe-3.png" width="336" height="202" alt="">
+              <div class="card-body d-flex flex-column align-items-center">
+                <h2>Reebok All Terrain</h2>
+                <p>Explore the world around you. These men's Reebok shoes unlock comfort for trail running. The lugged outsole keeps its grip on rocks, dirt, and other terrain you'll find in the great outdoors.</p>
+                <h1 class="py-3">$1299</h1>
+                <button class="btn btn-dark rounded" style="width: 150px;" >Buy Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+<!-- bag Start here -->
+
+      <section class="container py-3" id="Bags">
+        <div class="section-title d-flex align-items-center justify-content-between pb-3">
+          <h2 style="font-weight: 700;">Bags</h2>
+          <a href="" style="text-decoration: none;">See All</a>
+        </div>
+        <div class="row ge-2">
+          <div class="col-lg-4 cl-md-6 col-12">
+            <div class="card" style="background-color: #f2f1ed;">
+              <img src="images/bags/bag-1.png" width="290" height="200" style="padding-left: 100px;" alt="">
+              <div class="card-body d-flex flex-column align-items-center">
+                <h2>Ison Backpack</h2>
+                <p>The practical daypack is an ideal companion for urban folk who commute daily to the office or university. The Ison Backpack stays in shape with any filling quantity.</p>
+                <h1 class="py-3">$199</h1>
+                <button class="btn btn-dark rounded" style="width: 150px;" >Buy Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 cl-md-6 col-12">
+            <div class="card" style="background-color: #E5FCFF;">
+              <img src="images/bags/bag-2.png" width="290" height="200" style="padding-left: 90px;" alt="">
+              <div class="card-body d-flex flex-column align-items-center">
+                <h2>Biaowang Backpack</h2>
+                <p>Biaowang Laptop Backpack is designed with an external charging port and a built-in charging cable,both of them are good quality and work fine. It's better for daily life.</p>
+                <h1 class="py-3">$145</h1>
+                <button class="btn btn-dark rounded" style="width: 150px;" >Buy Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 cl-md-6 col-12">
+            <div class="card" style="background-color:#e8e8e8;">
+              <img src="images/bags/bag-3.png" width="290" height="200" style="padding-left: 90px;" alt="">
+              <div class="card-body d-flex flex-column align-items-center">
+                <h2>Dxyizu WS54 Smart</h2>
+                <p>Fits Macbook Pro/Air Laptop under 15.6 inch. Check the inner Tighter straps to keep the laptop or iPad/Android pad to stay safely inside the backpack, no bumps, scratches for these gadgets.</p>
+                <h1 class="py-3">$250</h1>
+                <button class="btn btn-dark rounded" style="width: 150px;" >Buy Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+      <!-- subscription email here -->
+
+      <section id="Contact Us" class="container d-flex justify-content-center align-items-center rounded mb-5" style="background-color: #FFF2F1; height: 450px; text-align: center;">
+        <div>
+          <h2>LET'S STAY IN TOUCH</h2>
+          <p>Get updates on sales specials and more</p>
+          <input style="width: 500px; height:50px; border-radius:10px" type="email" name="subscription" id="" placeholder="your email">
+          <button class="btn btn-danger" style="height: 40px; width:100px">Send</button>
+        </div>
+      </section>
+
+    </main>
+
+<!-- footer start here -200
     
-
-
-
-
-
-    
-
+    <footer>
+      <p class="text-center">All right reserved &COPY; Pandamart</p>
+    </footer>
 
 
     <!-- js here -->

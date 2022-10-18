@@ -1,0 +1,17 @@
+.img-c{
+    height: 378px;
+    width: 402px;
+    object-fit: cover;
+}
+.send{
+    background-color: #FFF2F1;
+    color: black;
+    border: 2px solid black;
+    border-radius: 12px;
+    transition: background-color .7s ease .1s, color .7s ease .1s;
+}
+
+.send:hover{
+    background-color: black;
+    color: white;
+}
